@@ -6,7 +6,7 @@ import java.util.List;
 public class Servico {
 	private int id;
 	private Empresa contratante;
-	private List<Carga> carga ;
+	private List<Carga> cargas ;
 	private Double valorExtra;
 	private Double valorTotal;
 	private String obs;
@@ -15,7 +15,7 @@ public class Servico {
 	
 	
 	public Servico() {
-		carga = new ArrayList<>();
+		cargas = new ArrayList<>();
 	}
 
 
@@ -39,13 +39,15 @@ public class Servico {
 	}
 
 
-	public List<Carga> getCarga() {
-		return carga;
+
+
+	public List<Carga> getCargas() {
+		return cargas;
 	}
 
 
-	public void setCarga(List<Carga> carga) {
-		this.carga = carga;
+	public void setCargas(List<Carga> cargas) {
+		this.cargas = cargas;
 	}
 
 
@@ -98,7 +100,9 @@ public class Servico {
 		this.destino = destino;
 	}
 	
-	
+	public void addCarga(Carga carga){
+		cargas.add(carga);
+	}
 	
 	
 }

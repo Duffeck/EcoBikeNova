@@ -62,9 +62,12 @@ public class Empresa {
 	}
 	public void setServicos(List<Servico> servicos) {
 		this.servicos = servicos;
+		
 	}
 	
-	
+	public void addServico(Servico servico){
+		servicos.add(servico);
+	}
 	
 	
 	
