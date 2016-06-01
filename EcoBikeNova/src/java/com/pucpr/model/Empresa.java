@@ -1,4 +1,4 @@
-package com.pucpr.model;
+package br.pucpr.model;
 
 import java.util.ArrayList;
 import java.util.List;

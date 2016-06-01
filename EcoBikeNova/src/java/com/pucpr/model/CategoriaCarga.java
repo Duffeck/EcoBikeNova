@@ -1,4 +1,4 @@
-package com.pucpr.model;
+package br.pucpr.model;
 
 public class CategoriaCarga {
 	private Long id;

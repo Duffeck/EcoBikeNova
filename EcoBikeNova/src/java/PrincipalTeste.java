@@ -1,8 +1,8 @@
 
 import br.pucpr.dao.EmpresaDAO;
 import br.pucpr.dao.EnderecoDAO;
-import com.pucpr.model.Empresa;
-import com.pucpr.model.Endereco;
+import br.pucpr.model.Empresa;
+import br.pucpr.model.Endereco;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -19,22 +19,22 @@ public class PrincipalTeste {
     public static void main(String[] args){
         Endereco endereco = new Endereco();
         
-        endereco.setBairro("BairroNovo");
-        endereco.setCidade("CidadeNova");
-        endereco.setComplemento("CasaNova");
-        endereco.setEstado("EstadoNovo");
+        endereco.setBairro("aaaaaaaaaaaaaa");
+        endereco.setCidade("aaaaaaaaaaa");
+        endereco.setComplemento("CaaaaaaaaaaaasaNova");
+        endereco.setEstado("EstadoaaaaaaaaaaNovo");
         endereco.setNumero(1111);
-        endereco.setPais("PaisNovo");
-        endereco.setRua("Ruanova");
+        endereco.setPais("PaisaaaaaaaaaaNovo");
+        endereco.setRua("Ruanaaaaaaaaova");
         
         endereco.setId(EnderecoDAO.getInstance().insert(endereco));
         
         Empresa empresa = new Empresa();
         empresa.setCnpj(123123123);
-        empresa.setEmail("empresa@empresa.com");
+        empresa.setEmail("empreeeeeeeeeeeeeeesa@empresa.com");
         empresa.setEndereco(endereco);
-        empresa.setNome("EmpresaNova");
-        empresa.setTelefone("4564-5664");
+        empresa.setNome("EmpresaeeeeeeeeeeNova");
+        empresa.setTelefone("456444seasdascasxcasc4-5664");
         
         empresa.setId(EmpresaDAO.getInstance().insert(empresa));
     }

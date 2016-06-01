@@ -1,4 +1,4 @@
-package com.pucpr.model;
+package br.pucpr.model;
 
 public class Bike {
         private Long id;

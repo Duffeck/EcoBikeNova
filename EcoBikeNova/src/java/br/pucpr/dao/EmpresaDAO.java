@@ -7,7 +7,7 @@ package br.pucpr.dao;
 
 import br.pucpr.dao.utils.Conexao;
 import br.pucpr.exception.BSIException;
-import com.pucpr.model.Empresa;
+import br.pucpr.model.Empresa;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
